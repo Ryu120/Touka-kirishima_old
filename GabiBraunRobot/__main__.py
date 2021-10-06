@@ -60,7 +60,7 @@ You can find my list of available commands with /help.
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Eldian and help admins manage their groups with Some Powerful Titans! Have a look at the following for an idea of some of \
+I'm a jujutsu sorcerer and help admins manage their groups with Some Powerful skills! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -77,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-GABI_IMG = "https://telegra.ph/file/34175c35a7d981c24db3b.jpg"
+GABI_IMG = "https://telegra.ph/file/fc4148cfe17827698ea9c.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
