@@ -56,41 +56,41 @@ PM_START_TEXT = """
 `Hey There!` [👩‍💼](https://telegra.ph/file/fc4148cfe17827698ea9c.jpg) `My name is` *Maki zenin*
 `I am an Anime Themed group management bot.
 Build by The @Ryu_God for Your Telegram Group , I specialize in managing anime and similar themed groups.
-You can find my list of available commands with! Hit` *🔐Commands*   
+You can find my list of available commands with! Hit` *⚡ Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD Maki TO YOUR GROUP ➕️",url="t.me/Maki_ryu_bot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ᴍᴀᴋɪ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕️",url="t.me/Maki_ryu_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
-              text="🔐 Command & Help", callback_data="help_back"),
+              text="⚡ᴄᴏᴍᴍᴀɴᴅs & ʜᴇʟᴘ", callback_data="help_back"),
      
     ],
     [     InlineKeyboardButton(
-            text=" Anime Group", url="https://telegram.dog/Otaku_zone"),
+            text="🈯ᴀɴɪᴍᴇ ɢʀᴏᴜᴘ", url="https://telegram.dog/Otaku_zone"),
     
     ],
     [
         InlineKeyboardButton(
-            text="📮 Update Channel", url="https://telegram.dog/Otaku_zone"),
+            text="♦ᴜᴘᴅᴀᴛᴇ ɢʀᴏᴜᴘ", url="https://telegram.dog/Otaku_zone"),
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Maki_zenin_support"),
+            text="🈶ᴀɴɪᴍᴇ ᴄʟᴜʙ", url="https://t.me/@animeclub_4all"),
           
 
 
 InlineKeyboardButton(
-            text="🌀 SUPPORT", url="https://telegram.dog/Maki_zenin_support"
+            text="🌀sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/Maki_zenin_support"
         ),
 
     ],
     [
         InlineKeyboardButton(
-                    text="My creator", url="https://telegram.dog/@Ryu_God"
+                    text="ᴍʏ ᴄʀᴇᴀᴛᴏʀ", url="https://telegram.dog/@Ryu_God"
         ),
     ],
 ]
