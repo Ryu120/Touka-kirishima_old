@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👩‍💼]() `My name is` *Maki zenin*
+`Hey There!` [👩‍💼](https://telegra.ph/file/fc4148cfe17827698ea9c.jpg) `My name is` *Maki zenin*
 `I am an Anime Themed group management bot.
 Build by The @Ryu_God for Your Telegram Group , I specialize in managing anime and similar themed groups.
 You can find my list of available commands with! Hit` *🔐Commands*   
@@ -79,12 +79,12 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📑 Loges", url="https://t.me/Makizeninsupport"),
+            text="📑 Loges", url="https://t.me/Maki_zenin_support"),
           
 
 
 InlineKeyboardButton(
-            text="🐱 SUPPORT", url="https://telegram.dog/Makizeninsupport"
+            text="🌀 SUPPORT", url="https://telegram.dog/Maki_zenin_support"
         ),
 
     ],
@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "A jujutsu sorcerer never sleeps!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
