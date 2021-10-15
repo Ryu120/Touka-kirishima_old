@@ -37,7 +37,7 @@ def afk(update, context):
     fname = update.effective_user.first_name
     try:
         update.effective_message.reply_text(
-            "{} is now Away!".format(fname))
+            "{} is now Dead!".format(fname))
     except BadRequest:
         pass
 
@@ -59,7 +59,7 @@ def no_longer_afk(update, context):
         firstname = update.effective_user.first_name
         try:
             message.reply_text(
-                "{} is no longer AFK!\nTime you were AFK for: {}".format(firstname, end_afk_time))
+                "{} is Reincarnated!\nTime you were Dead for: {}".format(firstname, end_afk_time))
         except Exception:
             return
 
@@ -121,7 +121,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if reason == "none":
             if int(userc_id) == int(user_id):
                 return
-            res = "{} is AFK!\nSince: {}".format(fst_name, since_afk)
+            res = "{} is Dead!\nSince: {}".format(fst_name, since_afk)
             update.effective_message.reply_text(res)
         else:
             if int(userc_id) == int(user_id):
