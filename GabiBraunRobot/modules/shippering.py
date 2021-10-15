@@ -21,9 +21,9 @@ SOFTWARE.
 
 import random
 
-from Maki_ryu_bot import pgram
-from Maki_ryu_bot.utils.errors import capture_err
-from shipping.py.modules.mongo.couples_mongo import get_couple, save_couple
+from GabiBraunRobot import pgram
+from GabiBraunRobot.utils.errors import capture_err
+from GabiBraunRobot.modules.mongo.couples_mongo import get_couple, save_couple
 from pyrogram import filters
 from datetime import datetime
 
