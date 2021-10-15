@@ -2,7 +2,7 @@ from requests import get
 from pyrogram import filters , Client
 from pyrogram.types import *
 from bs4 import BeautifulSoup
-from nksama import bot
+from GabiBraunRobot import bot
 
 
 def call_back_in_filter(data):
