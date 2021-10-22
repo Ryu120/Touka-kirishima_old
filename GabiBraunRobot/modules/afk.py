@@ -10,7 +10,7 @@ from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
 from GabiBraunRobot import dispatcher
 
-from Natsuki.modules.disable import (
+from GabiBraunRobot.modules.disable import (
 
     DisableAbleCommandHandler,
 
