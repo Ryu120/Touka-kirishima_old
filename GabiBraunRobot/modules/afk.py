@@ -8,7 +8,7 @@ from telegram.error import BadRequest
 
 from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
 
-from Natsuki import dispatcher
+from GabiBraunRobot import dispatcher
 
 from Natsuki.modules.disable import (
 
