@@ -18,7 +18,7 @@ from GabiBraunRobot.modules.disable import (
 
 )
 
-from GabiBraunRobot.modules.sql import afk.sql as sql
+from GabiBraunRobot.modules.sql import afk_sql as sql
 
 from Natsuki.modules.users import get_user_id
 
