@@ -1,17 +1,19 @@
-import html
-import random
+from typing import Optional
+import time
 
-from telegram import MessageEntity, Update
+from telegram import Message, User
+from telegram import MessageEntity, ParseMode
 from telegram.error import BadRequest
-from telegram.ext import CallbackContext, Filters, MessageHandler, run_async
+from telegram.ext import Filters, MessageHandler, run_async
 
 from GabiBraunRobot import dispatcher
-from GabiBraunRobot.modules.disable import (
-    DisableAbleCommandHandler,
-    DisableAbleMessageHandler,
-)
-from GabiBraunRobot.modules.sql import afk_sql as sql
+from GabiBraunRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
+from GabiBraunRobot.modules.sql.afk_redis import start_afk, end_afk, is_user_afk, afk_reason
+from GabiBraunRobot import REDIS
 from GabiBraunRobot.modules.users import get_user_id
+
+from GabiBraunRobot.modules.helper_funcs.alternate import send_message
+from GabiBraunRobot.modules.helper_funcs.readable_time import get_readable_time
 
 AFK_GROUP = 7
 AFK_REPLY_GROUP = 8
